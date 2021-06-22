@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kattentrum</title>
+    <link rel="shortcut icon" href="/img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body class="body" id="catalog__body">
+    <header class="header" id="catalog__header">
+        <div class="header__reg reg">
+            <i class="far fa-times-circle reg__exit"></i>
+            <div class="reg__block">
+                <form action="#" class="reg__form" method="GET">
+                    <input type="text" name="UserName" id="input-user__name" placeholder="Your name" required>
+                    <input type="text" name="UserSurname" id="input-user__surname" placeholder="Your surname" required>
+                    <input type="email" name="UserMail" id="input-user__email" placeholder="mail..." required>
+                    <input type="tel" name="UserNumber" id="input-user__number" placeholder="phone number..."
+                        required>
+                    <div class="reg__buuton">
+                        <button class="reg__btn">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="header__login login" id="catalog__login">
+            <div class="header__logo" id="catalog__logo">
+                <canvas id="canvas">Your browser is not supported</canvas>
+            </div>
+            <div id="catalog__adress">
+                <span>Доставка в Полтаве в течении 60 минут</span>
+            </div>
+
+            <div id="catalog__header__btn">
+                <div class="login__btn">
+                    <button type="submit" class="header__btn log__btn">Регистрация</button>
+                    <button type="submit" class="header__btn log__btn">Login</button>
+                    <i class="fas fa-shopping-basket"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="mini__basket mini__basket--margin_top">
+
+        </div>
+    </header>
+
+    <main id="catalog__main">
+
+        <div class="info--block__basket">
+            <div class="info--block__wrapper">
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+        <section class="block__grid">
+        </section>
+    </main>
+
+    <footer class="catalog__footer">
+        <div class="catalog__footer__column__one">
+            <a href="../index.html" class="catalog__footer__item footer__item" target="_blank">Главная</a>
+            <a href="../about__company/about__company.html" class="catalog__footer__item footer__item" target="_blank">о
+                компании</a>
+        </div>
+
+
+
+        <div class="catalog__footer__column__two">
+            <div class="footer__tell">
+                <i class="fas fa-phone-alt"></i>
+                <div class="footer__tell-block">
+                    <span class="footer__litle-text">Остались вопросы</span>
+                    <a href="tel:4917680272076" class="footer__call">+49 176 80272776</a>
+                </div>
+            </div>
+            <div class="footer__mail">
+                <i class="fas fa-envelope"></i>
+                <a href="baikal@mail.ru" class="footer__post">baikal@mail.ru</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="../script/jquery.js"></script>
+    <script src="../script/canvas.js"></script>
+    <script src="../script/main__script.js"></script>
+    <script src="../script/basket.js"></script>
+</body>
+
+</html>

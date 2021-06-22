@@ -1,0 +1,110 @@
+@import "_mixin__about__company.scss";
+
+.about {
+  &__company {
+    &__title {
+      @include for-about-company-title;
+      margin-bottom: 25px;
+    }
+    &__map {
+      @media (max-width: 1100px) {
+        width: 100%;
+      }
+    }
+    &__main {
+      display: flex;
+      padding-left: calc(10px + (242 - 10) * ((100vw - 320px) / 1640));
+      padding-right: calc(10px + (242 - 10) * ((100vw - 320px) / 1640));
+      margin-bottom: 40px;
+      @media (max-width: 1100px) {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      @media (min-width: 2000px) {
+        justify-content: space-around;
+      }
+    }
+    &__shedule {
+      margin-right: 35px;
+      @media (max-width: 1100px) {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-right: initial;
+      }
+    }
+  }
+}
+.shedule {
+  &__adress {
+    box-shadow: 0 1px 4px rgb(0 0 0 / 38%), 0 3px 9px rgb(0 0 0 / 22%);
+    display: flex;
+    padding: calc(6px + (20 - 6) * ((100vw - 320px) / 1640))
+      calc(12px + (30 - 12) * ((100vw - 320px) / 1640));
+    margin-bottom: 38px;
+    border-radius: 10px;
+  }
+  &__working {
+    box-shadow: 0 1px 4px rgb(0 0 0 / 38%), 0 3px 9px rgb(0 0 0 / 22%);
+    border-radius: 10px;
+    padding: 20px 30px;
+  }
+}
+.adress {
+  &__column {
+    @include for-adress-place;
+    &__time {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__place {
+    @include for-adress-place;
+    margin-right: calc(20px + (60 - 20) * ((100vw - 320px) / 1640));
+    &__block {
+      display: flex;
+    }
+  }
+}
+
+.working {
+  &__days {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:not(:last-child) {
+      border-bottom: 1px solid $main__color;
+      margin-bottom: 15px;
+    }
+    &__block {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__map {
+    width: calc(300px + (600 - 300) * ((100vw - 320px) / 1640));
+    height: 633px;
+    border-radius: 11px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 38%), 0 3px 9px rgb(0 0 0 / 22%);
+    @media (max-width: 1100px) {
+      width: 100%;
+    }
+  }
+}
+
+.fa-map-marker-alt {
+  color: $main__color;
+  font-size: calc(18px + (23 - 18) * ((100vw - 320px) / 1640));
+  margin-right: 15px;
+}
+.working {
+  &__day {
+    @include for-working-day;
+  }
+  &__time {
+    @include for-working-day;
+  }
+}
+.fa-stopwatch {
+  color: $main__color;
+  font-size: 20px;
+}

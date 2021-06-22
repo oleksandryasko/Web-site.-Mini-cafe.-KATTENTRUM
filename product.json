@@ -1,0 +1,72 @@
+{
+  "1": {
+    "name": "Philadelphia",
+    "cost": "24",
+    "description": "Сыр творожный, креветка в кляре, огурец, тобико",
+    "image": "/img/sushi__card/Filadelfiya.jpg",
+    "button": "Беру !"
+  },
+  "2": {
+    "name": "Okivana",
+    "cost": "20",
+    "description": "Сыр творожный, креветка в кляре, огурец, тобико",
+    "image": "/img/sushi__card/okivana.jpg",
+    "button": "Беру !"
+  },
+  "3": {
+    "name": "Drakon",
+    "cost": "18",
+    "description": "Сыр творожный, креветка в кляре, огурец, тобико",
+    "image": "/img/sushi__card/roll-drakon-1.jpg",
+    "button": "Беру !"
+  },
+  "4": {
+    "name": "Kaliphornia",
+    "cost": "26",
+    "description": "Сыр творожный, креветка в кляре, огурец, тобико",
+    "image": "/img/sushi__card/rolls-Kalifornija.png",
+    "button": "Беру !"
+  },
+  "5": {
+    "name": "Canada",
+    "cost": "15",
+    "description": "Сыр творожный, креветка в кляре, огурец, тобико",
+    "image": "/img/sushi__card/canada.jpg",
+    "button": "Беру !"
+  },
+  "6": {
+    "name": "7UP",
+    "cost": "1",
+    "description": "Напиток со вкусом лимона и лайма, не содержащего кофеина.",
+    "image": "/img/drink/7up.jpg",
+    "button": "Беру !"
+  },
+  "7": {
+    "name": "Coca Cola",
+    "cost": "2",
+    "description": "Кока-кола - освежающий безалкогольный сильногазированный пастеризованний напиток",
+    "image": "/img/drink/coca_cola.jpg",
+    "button": "Беру !"
+  },
+  "8": {
+    "name": "Fanta",
+    "cost": "1.5",
+    "description": "Безалкогольный сильногазированный прохладительный напиток с цитрусовым вкусом",
+    "image": "/img/drink/fanta.jpg",
+    "button": "Беру !"
+  },
+  "9": {
+    "name": "Pepsi",
+    "cost": "2",
+    "description": "Популярный, удобный и безопасный напиток. Станет отличным вариантом напитка с собой на учебе или тренировке",
+    "image": "/img/drink/pepsi.jpg",
+    "button": "Беру !"
+  },
+  "10": {
+    "name": "Sprite",
+    "cost": "1.7",
+    "description": "Идеальный выбор для тех, кто хочет утолить жажду и одновременно насладиться освежающим вкусом лимона и лайма",
+    "image": "/img/drink/sprite.jpg",
+    "button": "Беру !"
+  }
+}

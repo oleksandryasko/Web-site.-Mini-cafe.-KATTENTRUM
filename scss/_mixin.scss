@@ -1,0 +1,199 @@
+@mixin for-btn-lang {
+  font-family: "Montserrat";
+  font-size: calc(6px + (13 - 6) * ((100vw - 320px) / 1640));
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  border: 2px solid #005aff;
+  border-radius: 42px;
+}
+
+@mixin for-btn-log {
+  font-family: "Montserrat";
+  font-size: calc(7px + (12 - 7) * ((100vw - 320px) / 1640));
+  color: white;
+  padding: 5px calc(8px + (38 - 8) * ((100vw - 320px) / 1640));
+  background-color: #005aff;
+  border-radius: 42px;
+  border: 2px solid #005aff;
+}
+
+@mixin for-inf--bank {
+  font-family: "Montserrat";
+  font-size: calc(12px + (18 - 12) * ((100vw - 320px) / 1640));
+  font-weight: 600;
+}
+
+@mixin for-little-text {
+  font-family: "Montserrat";
+  font-size: calc(9px + (14 - 9) * ((100vw - 320px) / 1640));
+  font-weight: 500;
+  color: #25323899;
+}
+
+@mixin for-header-tittle {
+  font-family: "Montserrat";
+  font-size: calc(8px + (20 - 8) * ((100vw - 320px) / 1640));
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}
+
+@mixin for-fa-logo {
+  color: #005aff;
+  font-size: calc(12px + (27 - 12) * ((100vw - 320px) / 1640)) !important;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+@mixin for-nav-btn {
+  font-family: "Montserrat";
+  font-size: calc(6px + (13 - 6) * ((100vw - 320px) / 1640));
+  font-weight: 700;
+  color: white;
+  padding: 1em 3.5em;
+  background-color: #005aff;
+  border-radius: 42px;
+  transition: all 0.5s;
+  border-radius: 42px;
+  border: 2px solid #005aff;
+}
+
+@mixin for-header-nav {
+  padding-left: $padd-left-tight-nav-btn;
+  padding-right: $padd-left-tight-nav-btn;
+  display: flex;
+  justify-content: space-between;
+  background: #253238;
+  padding-top: calc(10px + (22 - 10) * ((100vw - 320px) / 1640));
+  padding-bottom: calc(10px + (33 - 10) * ((100vw - 320px) / 1640));
+  z-index: 20;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+@mixin for-middle-card {
+  background: linear-gradient(
+      to bottom,
+      rgba(111, 2, 214, 0) 80%,
+      rgba(0, 0, 0, 0.701) 50%
+    ),
+    url(../img/main__photo/middle.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 20;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  width: 72%;
+}
+
+@mixin for-left-card {
+  background: linear-gradient(
+      to bottom,
+      rgba(111, 2, 214, 0) 80%,
+      rgba(0, 0, 0, 0.511) 50%
+    ),
+    url(../img/main__photo/left.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: calc(300px + (832 - 300) * ((100vw - 320px) / 1640));
+  z-index: 20;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+@mixin for-right-card {
+  background: linear-gradient(
+      to bottom,
+      rgba(111, 2, 214, 0) 80%,
+      rgba(0, 0, 0, 0.797) 50%
+    ),
+    url(../img/main__photo/right.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: calc(300px + (832 - 300) * ((100vw - 320px) / 1640));
+  z-index: 20;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  transition: all 0.5s;
+  padding-bottom: 20px;
+}
+
+@mixin for-sale-text {
+  font-family: "Montserrat";
+  color: white;
+  font-weight: 300;
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / 1640));
+}
+
+@mixin for-sale-btn {
+  font-family: "Montserrat";
+  color: white;
+  font-weight: 300;
+  font-size: 10px;
+}
+@mixin for-category-card-drink {
+  font-family: "Montserrat";
+  background: linear-gradient(
+      to bottom,
+      rgba(111, 2, 214, 0) 85%,
+      rgba(0, 0, 0, 0.797) 50%
+    ),
+    url(../img/photo__choice/dinks.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 290px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  background-position-x: 9%;
+  color: white;
+  justify-content: center;
+  padding-bottom: 7px;
+}
+
+@mixin for-category-card-sushi {
+  font-family: "Montserrat";
+  background: linear-gradient(
+      to bottom,
+      rgba(111, 2, 214, 0) 85%,
+      rgba(0, 0, 0, 0.797) 50%
+    ),
+    url(../img/photo__choice/sushi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 290px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: flex-end;
+  background-position-x: 9%;
+  color: white;
+  justify-content: center;
+  padding-bottom: 7px;
+}
+
+@mixin for-footer-litle-text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: calc(6px + (11 - 6) * ((100vw - 320px) / 1640));
+  color: #866b58;
+}
+
+@mixin for-footer-all-text {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: calc(9px + (18 - 9) * ((100vw - 320px) / 1640));
+  color: #005aff;
+  text-transform: uppercase;
+}

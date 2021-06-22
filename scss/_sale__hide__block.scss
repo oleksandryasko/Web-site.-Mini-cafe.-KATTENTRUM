@@ -1,0 +1,95 @@
+.sale {
+  &__hide {
+    &__block {
+      background: white;
+      max-width: 500px;
+      width: 100%;
+      &__two {
+        max-width: 500px;
+        width: 100%;
+      }
+    }
+    &__title {
+      background: linear-gradient(
+          to left bottom,
+          rgba(35, 204, 117, 0.769),
+          rgba(79, 181, 245, 0.865)
+        ),
+        url(../img/sale__background/sale__img.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 20px 25px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      height: 150px;
+      overflow: initial;
+    }
+    &__text {
+      padding: 20px 25px;
+      background: white;
+    }
+    &__wrapper {
+      position: absolute;
+      z-index: 30;
+      height: 100vh;
+      width: 100%;
+      background: rgba(153, 148, 104, 0.7);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      &__two {
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 40;
+        height: 100vh;
+        width: 100%;
+        background: rgba(153, 148, 104, 0.7);
+        display: none;
+      }
+    }
+    &__text {
+      font-family: "Montserrat";
+      font-size: calc(10px + (16 - 10) * ((100vw - 320px) / 1640));
+      font-weight: 500;
+    }
+    &__into__wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__exit {
+      font-size: 25px;
+      color: white;
+      transition: all 0.7s;
+      &:hover {
+        transform: rotate(80deg);
+      }
+    }
+    &__img {
+      position: relative;
+      padding: 0 0 40% 0;
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+.hide {
+  &__title {
+    font-family: "Montserrat";
+    font-size: calc(10px + (16 - 10) * ((100vw - 320px) / 1640));
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+}
+
+.fa-times-circle {
+  cursor: pointer;
+}

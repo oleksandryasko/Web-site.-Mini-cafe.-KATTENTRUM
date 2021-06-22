@@ -1,0 +1,17 @@
+@mixin for-about-company-title {
+  font-family: "Montserrat";
+  font-size: calc(18px + (24 - 18) * ((100vw - 320px) / 1640));
+  font-weight: 700;
+}
+
+@mixin for-adress-place {
+  font-family: "Montserrat";
+  font-size: calc(10px + (16 - 10) * ((100vw - 320px) / 1640));
+  font-weight: 500;
+}
+
+@mixin for-working-day {
+  font-family: "Montserrat";
+  font-size: calc(10px + (16 - 10) * ((100vw - 320px) / 1640));
+  font-weight: 500;
+}

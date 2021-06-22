@@ -1,0 +1,146 @@
+@keyframes movePhoneWindow {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+
+@keyframes showNumber {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showCallBtn {
+  0% {
+    left: 90px;
+    transform: scale(4.5);
+  }
+  100% {
+    left: 50px;
+    transform: scale(1);
+  }
+}
+
+@keyframes wichsenBtn {
+  0%,
+  50%,
+  100% {
+    transform: rotate(0deg);
+  }
+  10%,
+  30% {
+    transform: rotate(-10deg);
+  }
+  20%,
+  40% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes colorForWait {
+  0% {
+    color: black;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: black;
+  }
+}
+
+@keyframes turnBlock {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes turnBlockTwo {
+  0% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes widthPhone {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes deliveryWrapperAnimation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes showNumFour {
+  0% {
+    background: rgba(0, 0, 0, 0.375);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.973);
+  }
+}
+
+@keyframes showNumNine {
+  0% {
+    background: rgba(0, 0, 0, 0.375);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.973);
+  }
+}
+
+@keyframes showNumFive {
+  0% {
+    background: rgba(0, 0, 0, 0.375);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.973);
+  }
+}
+
+@keyframes showNumSix {
+  0% {
+    background: rgba(0, 0, 0, 0.375);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.973);
+  }
+}
+
+@keyframes showNumOne {
+  0% {
+    background: rgba(0, 0, 0, 0.375);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.973);
+  }
+}
+
+@keyframes showWrapperBlock {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}

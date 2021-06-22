@@ -1,0 +1,27 @@
+@keyframes moveLineOne {
+  0% {
+    transform: translate(-37px, 5px) rotate(90deg);
+  }
+  100% {
+    transform: translate(-37px, 5px) rotate(121deg);
+    transform-origin: right;
+  }
+}
+
+@keyframes moveLineTwo {
+  0% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(58deg);
+  }
+}
+
+@keyframes hideBlock {
+  0% {
+    right: 10%;
+  }
+  100% {
+    right: -69px;
+  }
+}

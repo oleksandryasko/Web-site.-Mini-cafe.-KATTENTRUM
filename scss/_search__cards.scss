@@ -1,0 +1,53 @@
+.search {
+  &__wrapper {
+    position: absolute;
+    top: 400px;
+    left: 0;
+    z-index: 50;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__cards {
+    background: yellowgreen;
+    margin: 0 12px;
+    box-shadow: 0 9px 96px rgb(0 0 0), 0 5px 106px rgb(0 0 0);
+    cursor: pointer;
+    transition: all 0.7s;
+    margin-bottom: 20px;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  &__img {
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__title {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: calc(13px + (16 - 13) * ((100vw - 320px) / 1640));
+    color: #251c15;
+    padding: 20px;
+  }
+}
+.search {
+  &__card {
+    position: relative;
+  }
+  &__link {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.cards__hide {
+  display: none;
+}

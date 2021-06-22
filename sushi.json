@@ -1,0 +1,27 @@
+{
+  "1": {
+    "name": "Philadelphia",
+    "cost": "24",
+    "image": "/img/sushi/philadelphia.jpg"
+  },
+  "2": {
+    "name": "Okivana",
+    "cost": "20",
+    "image": "/img/sushi__card/okivana.jpg"
+  },
+  "3": {
+    "name": "Drakon",
+    "cost": "18",
+    "image": "/img/sushi__card/roll-drakon-1.jpg"
+  },
+  "4": {
+    "name": "Kaliphornia",
+    "cost": "26",
+    "image": "/img/sushi__card/rolls-Kalifornija.png"
+  },
+  "5": {
+    "name": "Canada",
+    "cost": "15",
+    "image": "/img/sushi__card/canada.jpg"
+  }
+}
